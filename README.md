@@ -313,3 +313,20 @@ cd builds/rhel8
 packer build -var-file="../vsphere.pkrvars.hcl" -var-file="../common.pkrvars.hcl" .
 ```
 Execution time will vary depending on a number of factors such as how current the ISO file is, how many updates are needed, and the steps used in the customisation scripts.
+
+# Tiêu đề cấp 1
+## Tiêu đề cấp 2
+
+*bôi đậm*
+
+**nghiêng**
+
+`# systemctl start nginx`
+
+```
+command 1
+command 2
+...
+
+command n
+```
